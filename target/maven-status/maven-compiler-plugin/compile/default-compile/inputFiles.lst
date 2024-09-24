@@ -1,0 +1,17 @@
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\configs\SpringDocConfig.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\models\InfoLottery.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\models\Lottery.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\dtos\common\Bet\PostAnswerBet.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\dtos\common\ErrorApi.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\repositories\LotteryRepository.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\models\Bet.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\services\impl\BetServiceImpl.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\controllers\PingController.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\dtos\common\Bet\PostRequestBet.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\services\BetService.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\repositories\BetRepository.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\entities\BetEntity.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\controllers\numerosSorteadosPorFecha.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\entities\LotteryEntity.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\Application.java
+C:\Users\marti\OneDrive\Escritorio\LCIII-FINAL-20022024-\src\main\java\ar\edu\utn\frc\tup\lciii\configs\MappersConfig.java
