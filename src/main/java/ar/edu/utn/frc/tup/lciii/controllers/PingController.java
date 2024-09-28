@@ -1,16 +1,25 @@
 package ar.edu.utn.frc.tup.lciii.controllers;
 
 import ar.edu.utn.frc.tup.lciii.dtos.common.ErrorApi;
+import ar.edu.utn.frc.tup.lciii.models.SorteoPorFecha;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 @RestController
 public class PingController {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    private final String URL = "http://localhost:8080/sorteos?fecha=";
 
     @Operation(
             summary = "Check healthy of the app",
@@ -33,5 +42,10 @@ public class PingController {
     @GetMapping("/ping")
     public String pong() {
         return "pong";
+    }
+
+    @GetMapping("/{fecha}")
+    public SorteoPorFecha[] ObtenerSorteoPorFecha(@PathVariable String fecha) {
+        return restTemplate.getForEntity(URL + fecha, SorteoPorFecha[].class).getBody();
     }
 }
